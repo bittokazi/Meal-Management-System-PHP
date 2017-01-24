@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	width:100%;
+	}
+img{
+	border:none;
+	}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	}
+h1{
+	margin:0.5em 0;
+	}
+h2{
+	color:#4d4d4d;
+	font-size:14px;
+	}
+
+a{
+	color:#0975a2;
+	text-decoration:none;
+	}
+a:hover{
+	color:#004c6b;
+	text-decoration:none;
+	}
+	table{
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+    display: table;
+	border:1px black solid;
+  }
+  tr,th,td,tbody{
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+	border:1px black solid;
+	
+	margin:0;
+	padding:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+  }
+#main {
+	width:980px;
+	margin:0 auto;
+	position:relative;
+}
+.menu {
+	list-style:none;
+	float:left;
+	height:30px
+	width:100%;
+}
+.menu li{
+	padding:7px;
+	font-size: 16px;
+	float:left;
+	border-right:1px solid red;
+	color:white;
+	cursor:pointer;
+}
+.menu .current{
+	padding:7px;
+	font-size: 16px;
+	float:left;
+	margin-left:3px;
+	border-right:1px solid red;
+	background:red;
+}
+.div-loader-hide {
+top:0;
+left:0;
+position:fixed;
+width:100%;
+height:100%;
+opacity: 0;
+filter: alpha(opacity=0); /* For IE8 and earlier */
+background:black;
+z-index:1000000;
+overflow:hidden;
+visibility:hidden;
+	transition: all 2000ms ease-out;
+-moz-transition: all 2000ms ease-out;
+}
+.div-loaders {
+top:0;
+left:0;
+position:fixed;
+width:100%;
+height:100%;
+opacity: 0.7;
+filter: alpha(opacity=70); /* For IE8 and earlier */
+background:black;
+z-index:1000000;
+overflow:hidden;
+visibility:visible;
+	transition: all 2000ms ease-out;
+-moz-transition: all 2000ms ease-out;
+}
